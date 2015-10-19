@@ -1,0 +1,17 @@
+\section{Gauss-Legendre Method for Computing the Integral}
+
+To be able to use the Gauss-Legendre method to compute the integral in \fxnote{ref. to problem eq}, the limits of the integral must be made  finite.
+Since the wave function 
+\begin{align}
+	e^{-2\alpha x}
+\end{align}
+rapidly goes toward zero as $x$ is increased (see fig), the integral can be approximated  by the same integral with finite limits.
+
+In this project, we \fxnote{sorry about the "we"} have accepted that $10^{-9}$ is close enough to zero to neglect contributions from the part of the wave function when the wave function gives a value of this order.
+For $x=5$ the value of the wave function is $e^{-10\alpha} \approx 2.1\cdot 10^{-9}$, when $\alpha = 2$.
+Hence, the considered integral that is to be solved by the Gauss-Legendre method is given by
+\begin{align}
+   \left< \frac{1}{| \v{r}_1 - \v{r}_2 |} \right> 
+   = \int _{-5} ^{5} \frac{e^{-2\alpha x}}{| \v{r}_1 - \v{r}_2 |} d \v{r}_1 d\v{r}_2
+\label{eq:GLdMethod1}
+\end{align} 
