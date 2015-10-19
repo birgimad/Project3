@@ -1,0 +1,25 @@
+\section{Generation of Legendre Polynomials}
+\label{sec:GenerationOfLegendrePolynomials}
+???? Write smt about the following lines of code ?????
+\begin{lstlisting}
+//Code for computing the Legendre polynomials to determine the roots of the n'th Legendre polynomial and the weights of the roots
+    for (int i = 1; i<m;i++){
+        root = cos(pi * (4*i-1) / (4*n + 2 ));  
+        //approximation of the root of the n'th polynomial
+    do{
+        // This uses the recursive relation to compute the Legendre polynomials
+        double L_plus = 1.0 , L = 0.0, L_minus;
+        for (int j = 0; j < n; j++)
+        {
+        L_minus = L;
+        L = L_plus;
+        L_plus = (2.0*j +1)*root*L - j*L_minus ;
+        L_plus /= j+1;
+        }
+		//derivative of the Legendre polynomial (L_plus)
+        dev_L = (-n*root*L_plus + n*L)/(1-root*root);   
+        // Newton's method
+        z = root;
+        root  = z - L_plus/dev_L;                   
+       } while(fabs(root - z) > pow(10,-6));
+\end{lstlisting}

@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=latex 2013.8.26)  19 OCT 2015 14:07
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=latex 2013.8.26)  19 OCT 2015 20:49
 entering extended mode
 **\let \APPmakepictures \empty \input  Report.tex
-(C:\Users\Birgitte\Desktop\Report\LaTeX\Report.tex (C:\Users\Birgitte\Desktop\R
-eport\LaTeX\preamble.tex ("C:\Program Files\MiKTeX 2.9\tex\latex\memoir\memoir.
-cls"
+(C:\Users\Birgitte\Documents\GitHub\Project3\Report\LaTeX\Report.tex (C:\Users\
+Birgitte\Documents\GitHub\Project3\Report\LaTeX\preamble.tex ("C:\Program Files
+\MiKTeX 2.9\tex\latex\memoir\memoir.cls"
 Document Class: memoir 2013/05/30 v3.7b configurable book, report, article docu
 ment class
 \onelineskip=\skip41
@@ -1269,7 +1269,9 @@ Package hyperref Warning: Rerun to get /PageLabels entry.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(C:\Users\Birgitte\Desktop\Report\LaTeX\Chapters/Formalia/Frontpage.tex
+
+(C:\Users\Birgitte\Documents\GitHub\Project3\Report\LaTeX\Chapters/Formalia/Fro
+ntpage.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
 LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 24
@@ -1301,7 +1303,9 @@ Underfull \hbox (badness 10000) in alignment at lines 24--32
 [][][] 
  []
 
-) (C:\Users\Birgitte\Desktop\Report\LaTeX\Chapters/Formalia/titelblad.tex
+)
+(C:\Users\Birgitte\Documents\GitHub\Project3\Report\LaTeX\Chapters/Formalia/tit
+elblad.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 25.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
@@ -1344,12 +1348,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--97
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 13.
-(C:\Users\Birgitte\Desktop\Report\LaTeX\Chapters/Introduction.tex) (C:\Users\Bi
-rgitte\Desktop\Report\LaTeX\Chapters/Method.tex) (C:\Users\Birgitte\Desktop\Rep
-ort\LaTeX\Chapters/NatureOfTheProblem.tex
+
+(C:\Users\Birgitte\Documents\GitHub\Project3\Report\LaTeX\Chapters/Introduction
+.tex) (C:\Users\Birgitte\Documents\GitHub\Project3\Report\LaTeX\Chapters/Method
+.tex)
+(C:\Users\Birgitte\Documents\GitHub\Project3\Report\LaTeX\Chapters/NatureOfTheP
+roblem.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
-) (C:\Users\Birgitte\Desktop\Report\LaTeX\Chapters/GLdMethod.tex
+)
+(C:\Users\Birgitte\Documents\GitHub\Project3\Report\LaTeX\Chapters/GLdMethod.te
+x
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
@@ -1358,31 +1367,42 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
 Package hyperref Info: bookmark level for unknown fixme defaults to 0 on input 
 line 3.
-) (C:\Users\Birgitte\Desktop\Report\LaTeX\Chapters/Conclusion.tex)
+
+LaTeX Warning: Reference `eq:GLdMethod3' on page 4 undefined on input line 50.
+
+
+LaTeX Warning: Reference `eq:GLdMethod3' on page 4 undefined on input line 51.
+
+)
+(C:\Users\Birgitte\Documents\GitHub\Project3\Report\LaTeX\Chapters/GenerationOf
+LegendrePolynomials.tex)
+(C:\Users\Birgitte\Documents\GitHub\Project3\Report\LaTeX\Chapters/Conclusion.t
+ex)
 No file Report-autopp.bbl.
-(C:\Users\Birgitte\Desktop\Report\LaTeX\Chapters/Appendix/MatLabSolution.tex ("
-C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+
+(C:\Users\Birgitte\Documents\GitHub\Project3\Report\LaTeX\Chapters/Appendix/Mat
+LabSolution.tex ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 ))
 
 Package pst-pdf Warning: Picture container needs cropping..
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 33.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 33.
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 33.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 33.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 34.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 34.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 34.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 34.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 33.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 34.
  ) 
 Here is how much of TeX's memory you used:
- 20024 strings out of 493922
- 301143 string characters out of 3147296
- 625743 words of memory out of 3000000
- 22909 multiletter control sequences out of 15000+200000
+ 20153 strings out of 493922
+ 303154 string characters out of 3147296
+ 651333 words of memory out of 3000000
+ 23035 multiletter control sequences out of 15000+200000
  42728 words of font info for 116 fonts, out of 3000000 for 9000
  847 hyphenation exceptions out of 8191
- 57i,19n,97p,620b,1535s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 57i,19n,97p,620b,1520s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 No pages of output.
