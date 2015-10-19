@@ -1,0 +1,8 @@
+Computed roots and their weights of the n'th Legendre polynomial:
+n = 5
+roots:             weight:
+0.90618       0.236927
+0.538469       0.478629
+0              0
+-0.538469       0.478629
+-0.90618       0.236927
