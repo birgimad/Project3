@@ -5,7 +5,15 @@ Since the wave function
 \begin{align}
 	e^{-2\alpha x}
 \end{align}
-rapidly goes toward zero as $x$ is increased (see fig), the integral can be approximated  by the same integral with finite limits.
+rapidly goes toward zero as $x$ is increased (see \figref{fig:function_zeropoint}), the integral can be approximated  by the same integral with finite limits.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.75\textwidth]{Figures/function_zeropoint.png}
+	\caption{Plot of $e^{-2\alpha x}$ with $\alpha = 2$.}
+	\label{fig:function_zeropoint}
+\end{figure}
+\fxnote{fix figur}
 
 In this project, we \fxnote{sorry about the "we"} have accepted that $10^{-9}$ is close enough to zero to neglect contributions from the part of the wave function when the wave function gives a value of this order.
 For $x=5$ the value of the wave function is $e^{-10\alpha} \approx 2.1\cdot 10^{-9}$, when $\alpha = 2$.
@@ -44,12 +52,16 @@ The derivative of the Legendre polynomial can then be computed as
 
 Newton's method is then applied to find the best estimation of the roots by considering the expression
 \begin{align}
-	z_1 = z- \frac{L_n(x)}{L_n'(x)}
+	z_1 = z- \frac{L_n(z)}{L_n'(z)}
 	\label{eq:GLdMethod5}
 \end{align}
 in which $z$ is the first approximation of the root given by \matref{eq:GLdMethod3}, and $z_1$ is a better approximation for the root. 
 The algorithm for generation of the roots and the Legendre polynomials is run until the difference between $z_1$ and the root approximated by \matref{eq:GLdMethod3} is ultimately zero, which in this project is set to $10^{-6}$.
 
-????? write how we get weights ??????
+The weight $w_i$ of the $i$'th root $z_i$ is then obtained by
+\begin{align}
+	w_i = \frac{2}{(1-z_i^2)(L_n'(z_i))^2}
+	\label{eq:GLdMethod6}
+\end{align}
   
 
