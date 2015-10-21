@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=latex 2013.8.26)  19 OCT 2015 20:49
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=latex 2013.8.26)  21 OCT 2015 09:40
 entering extended mode
 **\let \APPmakepictures \empty \input  Report.tex
 (C:\Users\Birgitte\Documents\GitHub\Project3\Report\LaTeX\Report.tex (C:\Users\
@@ -1356,26 +1356,61 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
 roblem.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
+
+LaTeX Warning: Reference `eq:NatureOfTheProblem2' on page 3 undefined on input 
+line 23.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 26.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 26.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 26.
+Package hyperref Info: bookmark level for unknown fixme defaults to 0 on input 
+line 26.
+
+Overfull \hbox (22.95477pt too wide) in paragraph at lines 21--27
+[][][][]
+ []
+
 )
 (C:\Users\Birgitte\Documents\GitHub\Project3\Report\LaTeX\Chapters/GLdMethod.te
 x
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
-Package hyperref Info: bookmark level for unknown fixme defaults to 0 on input 
+
+LaTeX Warning: Reference `eq:NatureOfTheProblem2' on page 3 undefined on input 
 line 3.
 
-LaTeX Warning: Reference `eq:GLdMethod3' on page 4 undefined on input line 50.
+
+LaTeX Warning: Reference `fig:function_zeropoint' on page 3 undefined on input 
+line 8.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 13.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 13.
+
+LaTeX Warning: Reference `eq:GLdMethod3' on page 4 undefined on input line 58.
 
 
-LaTeX Warning: Reference `eq:GLdMethod3' on page 4 undefined on input line 51.
+LaTeX Warning: Reference `eq:GLdMethod3' on page 4 undefined on input line 59.
 
 )
 (C:\Users\Birgitte\Documents\GitHub\Project3\Report\LaTeX\Chapters/GenerationOf
-LegendrePolynomials.tex)
+LegendrePolynomials.tex
+
+LaTeX Warning: Reference `eq:GLdMethod4' on page 4 undefined on input line 3.
+
+
+LaTeX Warning: Reference `eq:GLdMethod3' on page 5 undefined on input line 33.
+
+
+LaTeX Warning: Reference `eq:GLdMethod6' on page 5 undefined on input line 37.
+
+
+LaTeX Warning: Reference `tab:testGLdpol' on page 6 undefined on input line 59.
+
+
+)
 (C:\Users\Birgitte\Documents\GitHub\Project3\Report\LaTeX\Chapters/Conclusion.t
 ex)
 No file Report-autopp.bbl.
@@ -1397,11 +1432,11 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 34.
  ) 
 Here is how much of TeX's memory you used:
- 20153 strings out of 493922
- 303154 string characters out of 3147296
- 651333 words of memory out of 3000000
- 23035 multiletter control sequences out of 15000+200000
- 42728 words of font info for 116 fonts, out of 3000000 for 9000
+ 20189 strings out of 493922
+ 303657 string characters out of 3147296
+ 657349 words of memory out of 3000000
+ 23069 multiletter control sequences out of 15000+200000
+ 46485 words of font info for 126 fonts, out of 3000000 for 9000
  847 hyphenation exceptions out of 8191
  57i,19n,97p,620b,1520s stack positions out of 5000i,500n,10000p,200000b,50000s
 

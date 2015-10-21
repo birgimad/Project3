@@ -137,10 +137,10 @@ double int_function(double r1, double theta1, double phi1, double r2, double the
 {
   int alpha = 2.0;
   double drdr = r1*r1*r2*r2*(-sin(theta1))*(-sin(theta2));
-  double denominator = sqrt(r1*r1+r2*r2-2*r1*r2*(cos(theta1)*cos(theta2)+sin(theta1)*sin(theta2)*cos(phi1-phi2)));
-  double exponential = exp(-2.0*alpha*(r1+r2));
+  double denominator = r1*r1+r2*r2-2*r1*r2*(cos(theta1)*cos(theta2)+sin(theta1)*sin(theta2)*cos(phi1-phi2));
+  double exponential = exp(-2.0*alpha);
   if (fabs(denominator) < pow(10,-6)){return 0;}
-  else return drdr*exponential/denominator;
+  else return drdr*exponential/sqrt(denominator); //*(r1+r2)
 }
 
 int main()
@@ -184,14 +184,18 @@ int main()
     {
         cout << root_phi[i] << setw(20) << weight_phi[i] << endl;
     }
+
+    cout << "roots" << endl;
+    cout << root_r[3] << endl;
+    cout << root_theta[2] << endl;
+    cout << root_phi[2] << endl;
+    cout << "w" << endl;
+    cout << weight_r[3] << endl;
+    cout << weight_theta[2] << endl;
+    cout << weight_phi[2] << endl;
+
+    cout << " hej " << int_function(root_r[3],root_theta[2],root_phi[2],root_r[3],root_theta[2],root_phi[2]) << endl;
 */
-
-    cout << root_r[1] << endl;
-    cout << root_theta[0] << endl;
-    cout << root_phi[0] << endl;
-    cout << root_phi[1] << endl;
-
-    cout << int_function(root_r[1],root_theta[0],root_phi[0],root_r[1],root_theta[0],root_phi[1]) << endl;
 
     double int_GaussianLaguerre = 0;
 

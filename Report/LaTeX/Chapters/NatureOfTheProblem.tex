@@ -3,5 +3,26 @@
 %Give a short description of the nature of the problem and the eventual numerical methods, you have used.
 %"Non-computational" algebra
 %Show that you can rewrite this equation as a linear set of equations of the form
+Even though the Schr\"{o} dinger equation cannot be solved exactly for the helium atom or more complicated atomic or ionic species due to  electron-electron interaction, the ground state energy of the helium atom can be calculated using approximate methods. 
+One method is to assume that the electrons in helium atom occupies scaled hydrogen 1s orbital so that the product of the wave function of the two electrons can be given as
+\begin{align}
+	\Phi (r_1, r_2 ) = exp[-\alpha ( r1+ r2)]
+	\label{eq:NatureOfTheProblem1}
+\end{align}
+in which $\Phi_{1s}(r_i) = exp(-\alpha ( r_i))$ is the single particle wave function for a particle at position $r_i$.
+$\alpha$ is a parameter that corresponds to the charge of helium atom and 
+$r_i = sqrt(x_i^2+y_i^2+z_i^2)$ 
+is the cartesian coordinate of particle
+The ground state correlation energy between these two electrons in the helium atom can be calculated by solving the integral
+\begin{align}
+	\left< \frac{1}{| \v{r}_1 - \v{r}_2 |} \right> 
+   = \int _{-\infty } ^{\infty } \frac{e^{-2\alpha x}}{| \v{r}_1 - \v{r}_2 |} d \v{r}_1 d\v{r}_2
+   \label{eq:NatureOfTheProblem2}
+\end{align}
+which is the quantum mechanical expectation value of the correlation energy between two electrons which repel each other via the classical coulomb interaction.
+The closed-form solution of \matref{eq:NatureOfTheProblem2} is $5\pi ^2 / 16^2$.
+??????? Closed form solution is there in the below link but I didnt understand it properly.
+\url{https://www.physics.ohio-state.edu/~ntg/6810/readings/hjorth-jensen_notes2013_14.pdf}
+\fxnote{write closed form solution ??}
 
 
