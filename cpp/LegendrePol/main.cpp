@@ -18,7 +18,7 @@ int main()
 
     double pi = 3.14159265359;
     double root, dev_L, z;
-    int m  = (n + 2)/2;
+    int m  = (n + 1)/2;
 
     double *x_temp1;
     double *w_temp1;
@@ -30,7 +30,7 @@ int main()
     x_temp2 = x + n - 1;
     w_temp2 = w + n - 1;
 
-    for (int i = 1; i<m;i++){
+    for (int i = 1; i<=m;i++){
         root = cos(pi * (4*i-1) / (4*n + 2 ));  //approximation of the root of the n'th polynomial
     do{
         // This is eq 5.11 from chapter 5.3.1 recursive relation to compute the Legendre polynomials

@@ -11,7 +11,7 @@ double GaussianLegendre(double upperlimit, double lowerlimit, double x[], double
     double b = (lowerlimit + upperlimit)/2;
     //double t = a*x + b;
     double pi = 3.14159265359;
-    int m  = (n + 2)/2;
+    int m  = (n+1)/2;
     double root;
     double dev_L;
     double z;
@@ -26,7 +26,7 @@ double GaussianLegendre(double upperlimit, double lowerlimit, double x[], double
     x_temp2 = x + n - 1;
     w_temp2 = w + n - 1;
 
-    for (int i = 1; i<m;i++){
+    for (int i = 1; i<=m;i++){
         root = cos(pi * (4*i-1) / (4*n + 2 ));  //approximation of the root of the n'th polynomial
     do{
         // This is eq 5.11 from chapter 5.3.1 recursive relation to compute the Legendre polynomials
@@ -56,10 +56,10 @@ double GaussianLegendre(double upperlimit, double lowerlimit, double x[], double
 double int_function(double x1, double x2, double x3, double y1, double y2, double y3)
 {
   int alpha = 2.0;
-  double denominator = sqrt(pow((x1-y1),2)+pow((x2-y2),2)+pow((x3-y3),2));
+  double denominator = pow((x1-y1),2)+pow((x2-y2),2)+pow((x3-y3),2);
   double exponent = exp(-2.0*alpha*(sqrt(x1*x1+x2*x2+x3*x3)+sqrt(y1*y1+y2*y2+y3*y3)));
   if (denominator < pow(10,-6)){return 0;}
-  else return exponent/denominator;
+  else return exponent/sqrt(denominator);
 }
 
 int main()
@@ -96,6 +96,7 @@ for (int l = 0; l<n; l++){
 }}}}}}
 
 cout << "Integral value = " << int_GaussianLegendre << endl;
+
 
     return 0;
 }

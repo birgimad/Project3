@@ -4,7 +4,7 @@ The following lines of code generates the $n$'th order Legendre polynomial from 
 Since the roots are symmetric about $0$, the for-loop is run from $i=1$ to $i<m$ for $m = n+1$ with $n$ being the order of the computed polynomial and hence the length of the array containing the roots and the array containing the respective weights of the roots. 
 \begin{lstlisting}
 //Code for computing the Legendre polynomials to determine the roots of the n'th Legendre polynomial
-    for (int i = 1; i<m;i++){
+    for (int i = 1; i<=m;i++){
         root = cos(pi * (4*i-1) / (4*n + 2 ));  
         //approximation of the root of the n'th polynomial
     do{
@@ -35,6 +35,7 @@ After computation of the Legendre polynomial, the approximation is improved by N
 If the difference between the improved approximation and the initial approximation is greater than zero (that is $10^{-6}$), the $n$'th order Legendre polynomial is computed using this new approximation, and with this new Legendre polynomial the previously improved approximation of the root is again improved, and once again, if the difference between the approximated roots is greater than zero, new Legendre polynomials are computed.  
 This procedure is run until the difference between the approximation of the $i$'th root and the improved approximation of the $i$'th root is zero.
 When this is achieved, the root $z_i$ is put into the $i$'th and $(n-i)$'th entry of the array containing the roots, and the corresponding weights are computed by \matref{eq:GLdMethod6}.
+This is done $m$, in which $m$ is the lowest integer value of $(n+1)/2$ times, and hence all the entrances of the arrays $x[n]$ and $w[n]$ will be filled with the roots and corresponding weights
 
 \subsection{Test of the Legendre Polynomial Generation}
 ???? provides the roots and corresponding weights of the $n$'th Legendre polynomial.
