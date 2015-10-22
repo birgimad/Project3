@@ -136,21 +136,21 @@ double gammln( double xx)
 double int_function(double r1, double theta1, double phi1, double r2, double theta2, double phi2)
 {
   int alpha = 2.0;
-  double drdr = r1*r1*r2*r2*(-sin(theta1))*(-sin(theta2));
+  double drdr = (-sin(theta1))*(-sin(theta2)); //r1*r1*r2*r2*
   double denominator = r1*r1+r2*r2-2*r1*r2*(cos(theta1)*cos(theta2)+sin(theta1)*sin(theta2)*cos(phi1-phi2));
-  double exponential = exp(-2.0*alpha);
+  double exponential = exp(-2.0*alpha*(r1+r2)+r1+r2); //*(r1+r2)
   if (fabs(denominator) < pow(10,-6)){return 0;}
-  else return drdr*exponential/sqrt(denominator); //*(r1+r2)
+  else return drdr*exponential/sqrt(denominator); //*
 }
 
 int main()
 {
     int n;
-    double alpha = 2.0;
+    int alpha;
+    alpha = 2;
     cout << "Please enter value of n:\n>";
     cin >> n;
     cout << "n = " << n << endl;
-    cout << "alpha = " << alpha << endl;
     double      const  pi = 3.14159265359;
 
     double *root_r = new double [n+1];
@@ -164,38 +164,6 @@ int main()
 
     gauleg(0,pi,root_theta, weight_theta,n);
     gauleg(0,2*pi,root_phi, weight_phi,n);
-/*
-    cout << "root r" << setw(20) << "weight r" << endl;
-
-    for (int i=0; i<n+1; i++)
-    {
-        cout << root_r[i] << setw(20) << weight_r[i] << endl;
-    }
-
-    cout << "root theta" << setw(20) << "weight theta" << endl;
-
-    for (int i=0; i<n; i++)
-    {
-        cout << root_theta[i] << setw(20) << weight_theta[i] << endl;
-    }
-    cout << "root phi" << setw(20) << "weight phi" << endl;
-
-    for (int i=0; i<n; i++)
-    {
-        cout << root_phi[i] << setw(20) << weight_phi[i] << endl;
-    }
-
-    cout << "roots" << endl;
-    cout << root_r[3] << endl;
-    cout << root_theta[2] << endl;
-    cout << root_phi[2] << endl;
-    cout << "w" << endl;
-    cout << weight_r[3] << endl;
-    cout << weight_theta[2] << endl;
-    cout << weight_phi[2] << endl;
-
-    cout << " hej " << int_function(root_r[3],root_theta[2],root_phi[2],root_r[3],root_theta[2],root_phi[2]) << endl;
-*/
 
     double int_GaussianLaguerre = 0;
 
@@ -211,6 +179,13 @@ int main()
 
     cout << "Gaussian-Laguerre quad = " << setw(20) << setprecision(15) << int_GaussianLaguerre << endl;
 
+    ofstream myfile ("IntegralValueGaussLaguerre_n_30.txt");
+        if (myfile.is_open())
+        {
+            myfile << "Computed integral value using Laguerre method and spherical coordinates:" <<endl;
+            myfile << "n = " << n << endl;
+            myfile << "Integral value:" << setw(20) << int_GaussianLaguerre << endl;
+        }
 }
 
 #undef EPS

@@ -1,0 +1,7 @@
+Computed roots and their weights of the n'th Legendre polynomial:
+n = 4
+roots:             weight:
+0.861136       0.347855
+0.339981       0.652145
+-0.339981       0.652145
+-0.861136       0.347855

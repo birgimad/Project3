@@ -3,8 +3,12 @@
 \contentsline {chapter}{\chapternumberline {1}Introduction}{1}{chapter.1}
 \contentsline {chapter}{\chapternumberline {2}Method}{3}{chapter.2}
 \contentsline {section}{\numberline {2.1}Nature of the problem}{3}{section.2.1}
-\contentsline {section}{\numberline {2.2}Gauss-Legendre Method for Computing the Integral}{3}{section.2.2}
-\contentsline {section}{\numberline {2.3}Generation of Legendre Polynomials}{5}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Test of the Legendre Polynomial Generation}{6}{subsection.2.3.1}
-\contentsline {chapter}{\chapternumberline {3}Conclusion}{7}{chapter.3}
-\contentsline {appendix}{\chapternumberline {A}MatLab code for smt....}{9}{appendix.A}
+\contentsline {subsection}{\numberline {2.1.1}Integral Written in Cartesian and Spherical Coordinates}{3}{subsection.2.1.1}
+\contentsline {section}{\numberline {2.2}Gauss-Legendre Method for Computing the Integral}{4}{section.2.2}
+\contentsline {section}{\numberline {2.3}Generation of Legendre Polynomials}{6}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Test of the Legendre Polynomial Generation}{7}{subsection.2.3.1}
+\contentsline {section}{\numberline {2.4}Laguerre Method for Computing the Integral}{7}{section.2.4}
+\contentsline {chapter}{\chapternumberline {3}Results and Discussion}{9}{chapter.3}
+\contentsline {section}{\numberline {3.1}Solving the Integral by the Gauss-Legendre Method}{9}{section.3.1}
+\contentsline {section}{\numberline {3.2}Solving the Integral by the Laguerre Method}{9}{section.3.2}
+\contentsline {chapter}{\chapternumberline {4}Conclusion}{11}{chapter.4}
