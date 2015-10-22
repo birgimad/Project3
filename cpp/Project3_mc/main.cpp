@@ -34,10 +34,12 @@ double func(double x1,double y1,double z1,double x2,double y2, double z3);
 
         srand(time(NULL));
 
+        clock_t start,finish;
+        start = clock();
 
         for (int i=0;i<N;i++){
             for (int j=0;j<6;j++){
-                x[j] = - length +2*length*((double) rand() / (RAND_MAX)); //random numbers generated in the interval(0,1)
+                x[j] = - length +2*length*((double) rand() / (RAND_MAX)); //random numbers generated in the interval(-length,length)
 
                 //cout<<x[j]<<endl;
 
@@ -48,14 +50,22 @@ double func(double x1,double y1,double z1,double x2,double y2, double z3);
             Montesqr += fx*fx;
 
        }
-
+       finish = clock();
+       double t = (finish-start)/CLOCKS_PER_SEC;
        double MC = Montec/((double) N );
        double Montesqr1= Montesqr/((double) N);
        double variance= Montesqr1-MC*MC;
        double volume = pow(length,6);
        cout << " Integral = " << jacobidet*MC << endl;
-       cout << "sigma = " << volume*sqrt(variance/ ((double) N)) << endl;
+       cout << "sigma = " << jacobidet*sqrt(variance/ ((double) N)) << endl;
+       cout << "time = " << t << endl;
+       ofstream myfile ("MC107.txt");
+           if (myfile.is_open())
+           {
+               myfile << "The integral sum" << setw(20) << "Standard deviation" << setw(20)<< "CPU Time"<< endl;
+               myfile << jacobidet*MC << setw(20) << volume*sqrt(variance/((double) N)) << t;
 
+               }
 
 
       return 0;
