@@ -7,7 +7,9 @@
 \BOOKMARK [1][-]{section.2.3}{Generation of Legendre Polynomials}{chapter.2}% 7
 \BOOKMARK [2][-]{subsection.2.3.1}{Test of the Legendre Polynomial Generation}{section.2.3}% 8
 \BOOKMARK [1][-]{section.2.4}{Laguerre Method for Computing the Integral}{chapter.2}% 9
-\BOOKMARK [0][-]{chapter.3}{Results and Discussion}{}% 10
-\BOOKMARK [1][-]{section.3.1}{Solving the Integral by the Gauss-Legendre Method}{chapter.3}% 11
-\BOOKMARK [1][-]{section.3.2}{Solving the Integral by the Laguerre Method}{chapter.3}% 12
-\BOOKMARK [0][-]{chapter.4}{Conclusion}{}% 13
+\BOOKMARK [2][-]{subsection.2.4.1}{Improved Monto Carlo Method}{section.2.4}% 10
+\BOOKMARK [0][-]{chapter.3}{Results and Discussion}{}% 11
+\BOOKMARK [1][-]{section.3.1}{Solving the Integral by the Gauss-Legendre Method}{chapter.3}% 12
+\BOOKMARK [1][-]{section.3.2}{Solving the Integral by the Laguerre Method}{chapter.3}% 13
+\BOOKMARK [1][-]{section.3.3}{Computational Time for each Method}{chapter.3}% 14
+\BOOKMARK [0][-]{chapter.4}{Conclusion}{}% 15
