@@ -1,6 +1,7 @@
 \section{Computational Time for each Method}
 \label{sec:ComputationalTime}
-The table below shows computational time for some selected runs of the Gauss-Legendre, Laguerre, brute force Monte Carlo and improved Monte Carlo methods for different $N$'s together with the gained result by running the codes with the selected $N$'s. 
+The \tabref{tab:multicol} and \tabref{tab:multicol2} shows computational time for some selected runs of the Gauss-Legendre, Laguerre, brute force Monte Carlo and improved Monte Carlo methods for different $N$'s together with the gained result by running the codes with the selected $N$'s. 
+
 \begin{table}[ht]
 \centering
 \caption{Computational time for selected runs of the Gauss-Legendre and Laguerre method.}
@@ -64,5 +65,9 @@ The table below shows computational time for some selected runs of the Gauss-Leg
     \hline
 \end{tabular}
 \end{center}
-\label{tab:multicol}
+\label{tab:multicol2}
 \end{table}
+
+There is a big difference between the methods, both in run time and accuracy. Both the Gaussian-Legendre and Gaussian-Laguerre methods are slow and inaccurate compared to the Monte Carlo methods. They also require small N values to be able to run, which also limits their accuracy. The Gaussian-Laguerre method produces more accurate results than the Gaussian-Legendre method (see \tabref{tab:multicol}, but the computational time is almost twice as big. 
+
+Both the brute force Monte Carlo method and the improved gives more accurate results than the Gaussian methods when the N value is high. At low N values they are giving worse results than the Gaussian methods as seen in \tabref{tab:multicol} and \tabref{tab:multicol2}. But the run time is much better, they can do large N values quicker than the Gaussian.  If comparing the two Monte Carlo methods listed in \tabref{tab:multicol2}, the improved one gives better results with a small N than the brute force one, but the brute force method is quicker as it has fewer calculations to make. But as the improved one gives the same accuracy with a smaller N value, it can get the same accuracy just as fast or faster than the brute force one. 

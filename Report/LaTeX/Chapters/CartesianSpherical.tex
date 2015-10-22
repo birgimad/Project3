@@ -25,10 +25,8 @@ double int_function(double x1, double x2, double x3, double y1, double y2, doubl
   else return exponent/sqrt(denominator);
 }
 \end{lstlisting}
-A problem arises if the denominator becomes very small, when computing the fraction since this would cause the function value to become very large. 
-To avoid this problem, the function value is set equal to zero (that is $10^{-6}$ if the denominator becomes too small.
-\fxnote{is this an okay explanation??} 
-
+A problem arises if the denominator becomes very small, when computing the fraction, since this would cause the function value to become very large. 
+To avoid this problem, the function value is set equal to zero if this is the case. 
 For the Laguerre method, spherical coordinates with 
 $r_i \in [0;\infty )$, 
 $\theta_i \in [0;\pi]$, and 

@@ -8,9 +8,13 @@
 \contentsline {section}{\numberline {2.3}Generation of Legendre Polynomials}{6}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Test of the Legendre Polynomial Generation}{7}{subsection.2.3.1}
 \contentsline {section}{\numberline {2.4}Laguerre Method for Computing the Integral}{7}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Improved Monto Carlo Method}{8}{subsection.2.4.1}
-\contentsline {chapter}{\chapternumberline {3}Results and Discussion}{11}{chapter.3}
-\contentsline {section}{\numberline {3.1}Solving the Integral by the Gauss-Legendre Method}{11}{section.3.1}
-\contentsline {section}{\numberline {3.2}Solving the Integral by the Laguerre Method}{11}{section.3.2}
-\contentsline {section}{\numberline {3.3}Computational Time for each Method}{12}{section.3.3}
-\contentsline {chapter}{\chapternumberline {4}Conclusion}{13}{chapter.4}
+\contentsline {section}{\numberline {2.5}Monte Carlo Method}{8}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Brute force method}{8}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Improved Monto Carlo Method}{9}{subsection.2.5.2}
+\contentsline {chapter}{\chapternumberline {3}Results and Discussion}{13}{chapter.3}
+\contentsline {section}{\numberline {3.1}Solving the Integral by the Gauss-Legendre Method}{13}{section.3.1}
+\contentsline {section}{\numberline {3.2}Solving the Integral by the Laguerre Method}{13}{section.3.2}
+\contentsline {section}{\numberline {3.3}Monte Carlo method}{14}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Brute force}{14}{subsection.3.3.1}
+\contentsline {section}{\numberline {3.4}Computational Time for each Method}{14}{section.3.4}
+\contentsline {chapter}{\chapternumberline {4}Conclusion}{17}{chapter.4}

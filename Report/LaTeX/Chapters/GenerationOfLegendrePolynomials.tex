@@ -38,14 +38,16 @@ When this is achieved, the root $z_i$ is put into the $i$'th and $(n-i)$'th entr
 This is done $m$, in which $m$ is the lowest integer value of $(n+1)/2$ times, and hence all the entrances of the arrays $x[n]$ and $w[n]$ will be filled with the roots and corresponding weights
 
 \subsection{Test of the Legendre Polynomial Generation}
-???? provides the roots and corresponding weights of the $n$'th Legendre polynomial.
+\tabref{tab:testGLdpol} provides the roots and corresponding weights of the $n$'th Legendre polynomial.
 \fxnote{source} 
 For $n=5$, these are 
 \begin{table}[H]
 \centering
+\caption{Given roots and weights for the Legendre polynomial}
+\begin{center}
 \begin{tabular}{ | l | l | }
   \hline			
-  roots & weights  \\
+  Roots & Weights  \\
   \hline
   0 & 0.568889  \\
   \hline
@@ -54,7 +56,8 @@ For $n=5$, these are
   $\pm$ 0.90618 & 0.236927 \\
   \hline 
 \end{tabular}
+\end{center}
 \label{tab:testGLdpol}
 \end{table}
-\fxnote{do we want caption??}
+
 which is exactly what is obtained up to the same accuracy as in \figref{tab:testGLdpol} by running the above lines of code for $n=5$. (see \fxnote{ref. to GitHub})
