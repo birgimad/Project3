@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=latex 2013.8.26)  22 OCT 2015 17:16
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=latex 2013.8.26)  22 OCT 2015 18:29
 entering extended mode
 **\let \APPmakepictures \empty \input  Report.tex
 (C:\Users\Birgitte\Documents\GitHub\Project3\Report\LaTeX\Report.tex (C:\Users\
@@ -1350,8 +1350,24 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 13.
 
 (C:\Users\Birgitte\Documents\GitHub\Project3\Report\LaTeX\Chapters/Introduction
-.tex) (C:\Users\Birgitte\Documents\GitHub\Project3\Report\LaTeX\Chapters/Method
-.tex)
+.tex
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ¦ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ¦ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ¦ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ¦ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ¦ in font ptmr7t!
+) (C:\Users\Birgitte\Documents\GitHub\Project3\Report\LaTeX\Chapters/Method.tex
+)
 (C:\Users\Birgitte\Documents\GitHub\Project3\Report\LaTeX\Chapters/NatureOfTheP
 roblem.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
@@ -1432,23 +1448,35 @@ line 27.
 (C:\Users\Birgitte\Documents\GitHub\Project3\Report\LaTeX\Chapters/ImprovedMCMe
 thod.tex
 
-LaTeX Warning: Reference `eq:CartesianSpherical3' on page 7 undefined on input 
+LaTeX Warning: Reference `eq:CartesianSpherical3' on page 8 undefined on input 
 line 14.
 
 
-LaTeX Warning: Reference `sec:ImprovedMCMethod2' on page 7 undefined on input l
+LaTeX Warning: Reference `sec:ImprovedMCMethod2' on page 8 undefined on input l
 ine 19.
 
 
+LaTeX Warning: Reference `sec:LaguerreMethod' on page 8 undefined on input line
+ 20.
+
+
 LaTeX Warning: Reference `eq:ImprovedMCMethod5' on page 9 undefined on input li
-ne 81.
+ne 82.
 
 
 LaTeX Warning: Reference `eq:ImprovedMCMethod6' on page 9 undefined on input li
-ne 85.
+ne 86.
 
 ) (C:\Users\Birgitte\Documents\GitHub\Project3\Report\LaTeX\Chapters/Results.te
-x)
+x
+
+LaTeX Warning: Reference `eq:NatureOfTheProblem2' on page 11 undefined on input
+ line 5.
+
+
+LaTeX Warning: Reference `chap:method' on page 11 undefined on input line 5.
+
+)
 (C:\Users\Birgitte\Documents\GitHub\Project3\Report\LaTeX\Chapters/ResultsGauss
 LegendreMethod.tex
 
@@ -1465,28 +1493,30 @@ LaTeX Warning: Reference `sec:NatureOfTheProblem' on page 11 undefined on input
 )
 (C:\Users\Birgitte\Documents\GitHub\Project3\Report\LaTeX\Chapters/ResultsLague
 rreMethod.tex)
+(C:\Users\Birgitte\Documents\GitHub\Project3\Report\LaTeX\Chapters/Computationa
+lTime.tex)
 (C:\Users\Birgitte\Documents\GitHub\Project3\Report\LaTeX\Chapters/Conclusion.t
 ex)
 No file Report-autopp.bbl.
 
 Package pst-pdf Warning: Picture container needs cropping..
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 39.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 39.
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 39.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 39.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 40.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 40.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 40.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 40.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 39.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 40.
  ) 
 Here is how much of TeX's memory you used:
- 19703 strings out of 493922
- 299099 string characters out of 3147296
+ 19713 strings out of 493922
+ 299436 string characters out of 3147296
  627437 words of memory out of 3000000
- 22572 multiletter control sequences out of 15000+200000
+ 22579 multiletter control sequences out of 15000+200000
  46992 words of font info for 127 fonts, out of 3000000 for 9000
  847 hyphenation exceptions out of 8191
- 57i,19n,97p,620b,1722s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 57i,19n,97p,1413b,1722s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 No pages of output.

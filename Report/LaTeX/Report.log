@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.8.26)  22 OCT 2015 17:16
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.8.26)  22 OCT 2015 18:29
 entering extended mode
 **Report.tex
 (C:\Users\Birgitte\Documents\GitHub\Project3\Report\LaTeX\Report.tex
@@ -1321,7 +1321,11 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@dimlist=\toks52
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg")))
-(C:\Users\Birgitte\Documents\GitHub\Project3\Report\LaTeX\Report.aux)
+(C:\Users\Birgitte\Documents\GitHub\Project3\Report\LaTeX\Report.aux
+
+LaTeX Warning: Label `tab:multicol' multiply defined.
+
+)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
@@ -1339,8 +1343,7 @@ LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 4.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
@@ -1424,7 +1427,7 @@ LaTeX Info: Redefining \Ref on input line 4.
 ntpage.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
- <Figures/UiO_Seal_A_ENG.png, id=59, 566.5968pt x 95.8782pt>
+ <Figures/UiO_Seal_A_ENG.png, id=63, 566.5968pt x 95.8782pt>
 File: Figures/UiO_Seal_A_ENG.png Graphic file (type png)
 
 <use Figures/UiO_Seal_A_ENG.png>
@@ -1500,7 +1503,23 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
 
 ]
 (C:\Users\Birgitte\Documents\GitHub\Project3\Report\LaTeX\Chapters/Introduction
-.tex)
+.tex
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ¦ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ¦ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ¦ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ¦ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ¦ in font ptmr7t!
+)
 (C:\Users\Birgitte\Documents\GitHub\Project3\Report\LaTeX\Chapters/Method.tex
 [1
 
@@ -1523,7 +1542,7 @@ line 26.
 (C:\Users\Birgitte\Documents\GitHub\Project3\Report\LaTeX\Chapters/CartesianSph
 erical.tex [3])
 (C:\Users\Birgitte\Documents\GitHub\Project3\Report\LaTeX\Chapters/GLdMethod.te
-x <Figures/function_zeropoint.png, id=139, 422.32782pt x 316.18124pt>
+x <Figures/function_zeropoint.png, id=143, 422.32782pt x 316.18124pt>
 File: Figures/function_zeropoint.png Graphic file (type png)
 
 <use Figures/function_zeropoint.png>
@@ -1549,6 +1568,8 @@ thod.tex [8])
 LegendreMethod.tex)
 (C:\Users\Birgitte\Documents\GitHub\Project3\Report\LaTeX\Chapters/ResultsLague
 rreMethod.tex [11])
+(C:\Users\Birgitte\Documents\GitHub\Project3\Report\LaTeX\Chapters/Computationa
+lTime.tex)
 (C:\Users\Birgitte\Documents\GitHub\Project3\Report\LaTeX\Chapters/Conclusion.t
 ex [12])
 No file Report.bbl.
@@ -1556,27 +1577,30 @@ No file Report.bbl.
 
 ]
 \tf@toc=\write6
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 39.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 39.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 40.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 40.
  (C:\Users\Birgitte\Documents\GitHub\Project3\Report\LaTeX\Report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 39.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 39.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 40.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 40.
 Package rerunfilecheck Info: File `Report.out' has not changed.
-(rerunfilecheck)             Checksum: A150A4837E473F6DA33688F856C4210F;1051.
+(rerunfilecheck)             Checksum: F8482C56FAF8CB8594FE77C3A3260604;1133.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 39.
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 40.
  ) 
 Here is how much of TeX's memory you used:
- 20334 strings out of 493921
- 307983 string characters out of 3147273
- 630634 words of memory out of 3000000
- 22986 multiletter control sequences out of 15000+200000
+ 20348 strings out of 493921
+ 308366 string characters out of 3147273
+ 631014 words of memory out of 3000000
+ 22994 multiletter control sequences out of 15000+200000
  84505 words of font info for 181 fonts, out of 3000000 for 9000
  847 hyphenation exceptions out of 8191
- 57i,19n,97p,583b,1737s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 57i,19n,97p,1376b,1737s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fon
@@ -1588,9 +1612,9 @@ rogram Files/MiKTeX 2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 /urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8
 a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Report.pdf (19 pages, 219880 bytes).
+Output written on Report.pdf (19 pages, 226706 bytes).
 PDF statistics:
- 383 PDF objects out of 1000 (max. 8388607)
- 143 named destinations out of 1000 (max. 500000)
- 123 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 395 PDF objects out of 1000 (max. 8388607)
+ 146 named destinations out of 1000 (max. 500000)
+ 131 words of extra memory for PDF output out of 10000 (max. 10000000)
 
