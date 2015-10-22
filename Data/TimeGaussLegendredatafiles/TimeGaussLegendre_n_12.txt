@@ -1,0 +1,3 @@
+Integral value = 0.0548094
+n = 12
+CPU TIME:    0sec

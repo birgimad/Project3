@@ -1,0 +1,5 @@
+Computed integral value using Laguerre method and spherical coordinates:
+n = 12
+Integral value:            0.192155
+n = 12
+CPU TIME:    1sec

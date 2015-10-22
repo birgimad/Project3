@@ -1,0 +1,6 @@
+Computed integral value using Improved Monte carlo:
+N = 1000000
+Integral value:            0.192977
+Standard deviation:         0.000980611
+Variance:            0.961598
+TIME:    0sec
