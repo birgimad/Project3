@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=latex 2013.8.26)  23 OCT 2015 07:19
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=latex 2013.8.26)  23 OCT 2015 07:28
 entering extended mode
 **\let \APPmakepictures \empty \input  Report.tex
 (C:\Users\Birgitte\Documents\GitHub\Project3\Report\LaTeX\Report.tex (C:\Users\
@@ -1323,9 +1323,6 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 25--38
  []
 
 
-LaTeX Warning: Reference `LastPage' on page iii undefined on input line 83.
-
-
 Overfull \hbox (132.12012pt too wide) in paragraph at lines 40--97
 [][] 
  []
@@ -1425,17 +1422,19 @@ ne 42.
 LaTeX Warning: Reference `tab:testGLdpol' on page 7 undefined on input line 63.
 
 
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 63.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 63.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 63.
-Package hyperref Info: bookmark level for unknown fixme defaults to 0 on input 
-line 63.
 )
 (C:\Users\Birgitte\Documents\GitHub\Project3\Report\LaTeX\Chapters/LaguerreMeth
 od.tex
+Overfull \hbox (129.42058pt too wide) in paragraph at lines 63--1
+\OT1/ptm/m/n/10.95 for $\OML/ztmcm/m/it/10.95 n \OT1/ztmcm/m/n/10.95 = 5$\OT1/p
+tm/m/n/10.95 . (see [][][][])
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--1
+
+ []
+
 
 LaTeX Warning: Reference `eq:NatureOfTheProblem2' on page 7 undefined on input 
 line 14.
@@ -1505,6 +1504,16 @@ line 6.
 )
 (C:\Users\Birgitte\Documents\GitHub\Project3\Report\LaTeX\Chapters/ResultsGauss
 LegendreMethod.tex
+Overfull \hbox (191.93057pt too wide) in paragraph at lines 8--1
+\OT1/ptm/m/n/10.95 proved Monte Carlo method can be found in the GitHub folder 
+[][][][].
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--1
+
+ []
+
 
 LaTeX Warning: Reference `eq:GLdMethod1' on page 13 undefined on input line 3.
 
@@ -1564,11 +1573,11 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 44.
  ) 
 Here is how much of TeX's memory you used:
- 19753 strings out of 493922
- 300519 string characters out of 3147296
+ 19717 strings out of 493922
+ 300059 string characters out of 3147296
  627437 words of memory out of 3000000
- 22610 multiletter control sequences out of 15000+200000
- 46992 words of font info for 127 fonts, out of 3000000 for 9000
+ 22577 multiletter control sequences out of 15000+200000
+ 37055 words of font info for 99 fonts, out of 3000000 for 9000
  847 hyphenation exceptions out of 8191
  57i,19n,97p,846b,1722s stack positions out of 5000i,500n,10000p,200000b,50000s
 

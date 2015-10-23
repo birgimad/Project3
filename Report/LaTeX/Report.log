@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.8.26)  23 OCT 2015 07:19
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.8.26)  23 OCT 2015 07:28
 entering extended mode
 **Report.tex
 (C:\Users\Birgitte\Documents\GitHub\Project3\Report\LaTeX\Report.tex
@@ -1467,9 +1467,6 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 25--38
  []
 
 
-LaTeX Warning: Reference `LastPage' on page iii undefined on input line 83.
-
-
 Overfull \hbox (132.12012pt too wide) in paragraph at lines 40--97
 [][] 
  []
@@ -1520,7 +1517,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (C:\Users\Birgitte\Documents\GitHub\Project3\Report\LaTeX\Chapters/CartesianSph
 erical.tex [3])
 (C:\Users\Birgitte\Documents\GitHub\Project3\Report\LaTeX\Chapters/GLdMethod.te
-x <Figures/function_zeropoint.png, id=172, 422.32782pt x 316.18124pt>
+x <Figures/function_zeropoint.png, id=174, 422.32782pt x 316.18124pt>
 File: Figures/function_zeropoint.png Graphic file (type png)
 
 <use Figures/function_zeropoint.png>
@@ -1533,16 +1530,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
  [4] [5 <C:/Users/Birgitte/Documents/GitHub/Project3/Report/LaTeX/Figures/funct
 ion_zeropoint.png (PNG copy)>])
 (C:\Users\Birgitte\Documents\GitHub\Project3\Report\LaTeX\Chapters/GenerationOf
-LegendrePolynomials.tex [6]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 63.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 63.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 63.
-Package hyperref Info: bookmark level for unknown fixme defaults to 0 on input 
-line 63.
-)
+LegendrePolynomials.tex [6])
 (C:\Users\Birgitte\Documents\GitHub\Project3\Report\LaTeX\Chapters/LaguerreMeth
 od.tex [7])
 (C:\Users\Birgitte\Documents\GitHub\Project3\Report\LaTeX\Chapters/MonteCarloMe
@@ -1585,34 +1573,29 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 44.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 44.
 Package rerunfilecheck Info: File `Report.out' has not changed.
 (rerunfilecheck)             Checksum: 8ECA477E7A93F52E0D0FA50A8E7B1FA9;1454.
-
-
-LaTeX Warning: There were undefined references.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 44.
  ) 
 Here is how much of TeX's memory you used:
- 20426 strings out of 493921
- 310044 string characters out of 3147273
+ 20385 strings out of 493921
+ 309544 string characters out of 3147273
  635648 words of memory out of 3000000
- 23028 multiletter control sequences out of 15000+200000
- 84505 words of font info for 181 fonts, out of 3000000 for 9000
+ 22994 multiletter control sequences out of 15000+200000
+ 72412 words of font info for 151 fonts, out of 3000000 for 9000
  847 hyphenation exceptions out of 8191
  57i,19n,97p,809b,1058s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmss9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/symbol/usyr.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8
-a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Report.pdf (27 pages, 248187 bytes).
+public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/symbol/usyr.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/ti
+mes/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Report.pdf (27 pages, 240213 bytes).
 PDF statistics:
- 486 PDF objects out of 1000 (max. 8388607)
- 179 named destinations out of 1000 (max. 500000)
+ 483 PDF objects out of 1000 (max. 8388607)
+ 177 named destinations out of 1000 (max. 500000)
  171 words of extra memory for PDF output out of 10000 (max. 10000000)
 
