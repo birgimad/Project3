@@ -3,7 +3,7 @@
 \contentsline {chapter}{\chapternumberline {1}Introduction}{1}{chapter.1}
 \contentsline {chapter}{\chapternumberline {2}Method}{3}{chapter.2}
 \contentsline {section}{\numberline {2.1}Nature of the problem}{3}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Integral Written in Cartesian and Spherical Coordinates}{3}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.1}Integral Written in Cartesian and Spherical Coordinates}{4}{subsection.2.1.1}
 \contentsline {section}{\numberline {2.2}Gauss-Legendre Method for Computing the Integral}{4}{section.2.2}
 \contentsline {section}{\numberline {2.3}Generation of Legendre Polynomials}{6}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Test of the Legendre Polynomial Generation}{7}{subsection.2.3.1}
@@ -18,3 +18,4 @@
 \contentsline {subsection}{\numberline {3.3.1}Brute force}{14}{subsection.3.3.1}
 \contentsline {section}{\numberline {3.4}Computational Time for each Method}{14}{section.3.4}
 \contentsline {chapter}{\chapternumberline {4}Conclusion}{17}{chapter.4}
+\contentsline {chapter}{Bibliography}{19}{section*.4}

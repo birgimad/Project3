@@ -1,3 +1,9 @@
 \chapter{Conclusion}
-Conclude.... conclude.... conclude....
- 
+Gaussian quadrature methods and Monte Carlo methods were used to solve a multidimensional integral representing quantum mechanical expectation value of the correlation energy between two electrons which repel each other via the classical Coulomb interaction. In Gaussian quadrature method at first the integral was calculated using Legendre polynomial. 
+The weights and roots of the polynomial for different mesh points were found and the integral was calculated by setting the  limit  as [-4 , 4]. About 40 mesh points were needed to get a result with less percentage deviation. 
+Since Legendre polynomials are defined for $x$ in [-1,1], and the integral has limits $(-\infty, \infty)$ in cartesian coordinates, the results obtained was unsatisfactory. 
+For betterment of results, the coordinate frame of the function was changed to spherical coordinate system with $r_i$ in $[0,\infty)$, $\theta$ in $[0,\pi]$, and $\phi$ in $[0,2\pi]$.
+The roots and weights of the Laguerre polynomials was used to find $r_i$ whereas  both $\theta$ and $\phi$ were found using Legendre polynomials due to their finite limits. 
+This gave improved results.  
+
+A different approach was employed using brute force Monte Carlo method by considering the system as a probablity distribution function which ended up in good results for larger mesh points. Brute force Monte Carlo calculation was improved using importance sampling in which a transformation to spherical coordinates is done and exponential distribution is introduced. Now the results became far more better with less standard deviation. This study shows the efficiency of the Monte Carlo methods compared to Gauss-Legendre and Laguerre methods for solving multidimensional integrals.

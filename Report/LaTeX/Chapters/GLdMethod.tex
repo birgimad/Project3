@@ -14,8 +14,6 @@ rapidly goes toward zero as $x$ is increased (see \figref{fig:function_zeropoint
 	\caption{Plot of $e^{-2\alpha x}$ with $\alpha = 2$.}
 	\label{fig:function_zeropoint}
 \end{figure}
-\fxnote{fix figur}
-
 In this project, if the value is equal or smaller than $10^{-6}$ it is close enough to zero to neglect contributions from the part of the wave function when the wave function gives a value of this order.
 For $x=4$ the value of the wave function is $e^{-2\cdot \alpha \cdot 4} \approx 1.1\cdot 10^{-6}$, when $\alpha = 2$.
 Hence, the considered integral that is to be solved by the Gauss-Legendre method is given by
@@ -43,7 +41,7 @@ The $n$'th Legendre polynomial $L_n(x)$ can then be computed using the recursive
 	\label{eq:GLdMethod4}
 \end{align} 
 with $L_{-1} (x) = 0$ and $L_0 (x) = 1$.
-The code for generation the Legendre polynomial can be found in sec ?? \fxnote{ref to sec} together with a test of the Legendre polynomial generating algorithm.
+The code for generation the Legendre polynomial can be found in \secref{sec:GenerationOfLegendrePolynomials} together with a test of the Legendre polynomial generating algorithm.
 
 The derivative of the Legendre polynomial can then be computed as
 \begin{align}

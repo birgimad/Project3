@@ -39,7 +39,7 @@ That means that when evaluating the integral with the Monte Carlo method, it bec
 in which $\tilde{f} = f/e^{-u_1 - u_2 }$.
 
 The source code below shows the for loop for the improved Monte Carlo method can be seen below. 
-The difference between this and the for loop for the brute force Monte Carlo method given in \fxnote{ref to sec}, is the definition of the random variables and explicit statement of the total PDF $px$.
+The difference between this and the for loop for the brute force Monte Carlo method given in \subsecref{subsec:MCMethod}, is the definition of the random variables and explicit statement of the total PDF $px$.
 \begin{lstlisting}
 for (int i=0;i<N;i++){
 	for (int j=0;j<6;j++){
