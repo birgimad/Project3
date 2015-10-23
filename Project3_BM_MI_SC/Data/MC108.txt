@@ -1,0 +1,2 @@
+The integral sum  Standard deviation            CPU Time
+0.0975576         0.0002664730

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=latex 2013.8.26)  23 OCT 2015 07:28
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=latex 2013.8.26)  23 OCT 2015 09:10
 entering extended mode
 **\let \APPmakepictures \empty \input  Report.tex
 (C:\Users\Birgitte\Documents\GitHub\Project3\Report\LaTeX\Report.tex (C:\Users\
@@ -1531,7 +1531,7 @@ rreMethod.tex)
 (C:\Users\Birgitte\Documents\GitHub\Project3\Report\LaTeX\Chapters/MontecarloRe
 sults.tex
 
-LaTeX Warning: Reference `tab:BFM' on page 14 undefined on input line 4.
+LaTeX Warning: Reference `tab:BFM' on page 14 undefined on input line 2.
 
 )
 (C:\Users\Birgitte\Documents\GitHub\Project3\Report\LaTeX\Chapters/Computationa

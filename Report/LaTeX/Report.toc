@@ -15,7 +15,6 @@
 \contentsline {section}{\numberline {3.1}Solving the Integral by the Gauss-Legendre Method}{13}{section.3.1}
 \contentsline {section}{\numberline {3.2}Solving the Integral by the Laguerre Method}{13}{section.3.2}
 \contentsline {section}{\numberline {3.3}Monte Carlo method}{14}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Brute force}{14}{subsection.3.3.1}
 \contentsline {section}{\numberline {3.4}Computational Time for each Method}{14}{section.3.4}
 \contentsline {chapter}{\chapternumberline {4}Conclusion}{17}{chapter.4}
 \contentsline {chapter}{Bibliography}{19}{section*.4}
